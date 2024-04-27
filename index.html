@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mai Personal Website</title>   
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b2eb826670.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>AIS221</p>
+            <h1>Hi, I'm <span>Mai</span><br>From Calumpit, Bulacan</h1>
+        </div>
+    </div>
+</div> 
+<!-- -----------about---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/userrr.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> Hi there! My name is Myka Detera, a 21-year-old Virgo currently pursuing a Bachelor 
+                    of Science in Accounting Information System. I consider myself a passionate soul, 
+                    finding joy in exploring various avenues such as books, nature, and music. Art, in all
+                    its diverse forms, never fails to inspire and amaze me. With a love for neutral colors, 
+                    I find solace and beauty in their simplicity. Above all, I cherish meaningful connections 
+                    and thrive in deep conversations that ignite laughter and empathy. Let's journey together 
+                    and see where our shared passions take us! </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technical Proficiency</span><br>Skilled in using accounting software like QuickBooks or SAP</li>
+                            <li><span>Analytical Skills</span><br>Interpreting financial data, identifying trends, and analyzing financial statements </li>
+                            <li><span>Communication Skills</span><br>Excellent verbal and written communication abilities</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2011-2014</span><br>Valedictorian from Meysulao Elementary School</li>
+                            <li><span>2014-2018</span><br>With Honnor from SVSF High School</li>
+                            <li><span>2018-2020</span><br>With Honnor from SVSF High School</li>
+                            <li><span>2021-Current</span><br>First Honnor Deans Lister at National University</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-----------Services------------>
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-circle-info"></i>
+                <h2>Logo Design</h2>
+                <p>Designing a visual symbol to represent your brand.</p>
+                <a href="#">Learn more</a>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-circle-info"></i>
+                <h2>Poster Design</h2>
+                <p>Creating visually appealing graphics for public display.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-circle-info"></i>
+                <h2>Menu Design</h2>
+                <p>Crafting attractive and informative menus for restaurants.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-circle-info"></i>
+                <h2>Store Layout Design</h2>
+                <p> Aesthetics to create an inviting environment for customers.</p>
+                <a href="#">Learn more</a> 
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!------------portfolio---------->
+<div id="Portfolio">
+    <div class="container">
+         <h1 class="sub-title">My Work</h1>
+         <div class="work-list">
+              <div class="work">
+                 <img src="images/1.png">
+                 <div class="layer">
+                    <h3>Logo</h3>
+                    <p>You can download it to Canva</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+              </div>
+              <div class="work">
+                   <img src="images/3.png">
+                   <div class="layer">
+                    <h3>Poster</h3>
+                    <p>You can download it to Canva</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                 </div>
+
+              </div>
+              <div class="work">
+                   <img src="images/2.png">
+                   <div class="layer">
+                    <h3>Store Layout Design</h3>
+                    <p>You can download it to Canva</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                 </div>
+
+              </div>
+              <div class="work">
+                   <img src="images/4.png">
+                   <div class="layer">
+                    <h3>Menu</h3>
+                    <p>You can download it to Canva</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                 </div>
+              </div>
+         </div>   
+         <a href="#" class="btn">See more</a>
+     </div>
+</div>
+
+
+
+<!-------------gallery--------------->
+<div id="Gallery">
+    <div class="container">
+        <h1 class="sub-title">My Gallery</h1>
+        <div class="gallery-list">
+            <div class="gallery">
+                <img src="images/random (2).png"> 
+            </div>
+
+            <div class="gallery">
+                <img src="images/random (1).png"> 
+            </div>
+
+            <div class="gallery">
+                <img src="images/random (6).png"> 
+            </div>
+
+            <div class="gallery">
+                <img src="images/random (3).png"> 
+            </div>
+
+            <div class="gallery">
+                <img src="images/random (4).png"> 
+            </div>
+
+            <div class="gallery">
+                <img src="images/random (5).png"> 
+            </div>
+        </div>
+    </div>
+    
+<!------------contact---------------->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mykadetera@yahoo.com</p>
+                <p><i class="fa-solid fa-phone"></i>0955 117 8121</p>
+                <div class="social-icons">
+                    <a href=""i class="fab fa-facebook"></i></a>
+                    <a href=""i class="fab fa-twitter-square"></i></a>
+                    <a href=""i class="fab fa-instagram"></i></a>
+                    <a href=""i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Myka-Detera.Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right"></div>
+            <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Myka.</p>
+    </div>
+    <p></p>
+</div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }  
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }  
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right="0";
+        }
+        function closemenu() {
+            sidemenu.style.right="-200px";
+        } 
+
+    </script>
+
+</body>
+</html>
